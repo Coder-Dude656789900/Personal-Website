@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF 8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triaksha Invents</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4121a6e9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/LOGOFINAL.png" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SOCIAL SERVICE</a></li>
+                <li><a href="#portfolio">INVENTIONS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>INVENTOR</p>
+            <h1>Hi, I am <span>Triaksha Singh</span> from India.<br>Welcome to my Website.</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Triaksha Singh.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME:</h1>
+                <p> Hello Everyone, My Name is Triaksha Singh. I am currently a student studying in Indian School Al Wadi Al Kabir.The subjects I have opted include physics,
+                chemistry, maths and computer Science. Along with school i am also interested in making some innovations that can positively impact the world.
+                Till now I have made the robostick, the SESS etc. with the help and support of my mother.
+                My main objective is to make the world a better place.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('awards')">Awards</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Studies</span><br>Fast Learner, clear concepts</li>
+                        <li><span>Mind</span><br>Fast, problem Solving Ability</li>
+                        <li><span>Accomplishments</span><br>Completed 11 years of schooling, Coding courses etc.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="awards">
+                    <ul>
+                        <li><span>Class 8</span><br>Fast Learner, clear concepts</li>
+                        <li><span>Class 9</span><br>Fast Learner, clear concepts</li>
+                        <li><span>Class 10</span><br>Fast, problem Solving Ability</li>
+                        <li><span>Class 11</span><br>Oman Science festival, asteroid search campaign, IT talent hunt, Debate Competitions</li>
+                        <li><span>Class 12</span><br>Completed 11 years of schooling, Coding courses etc.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2009-10</span><br>Nursery</li>
+                        <li><span>2010-2012</span><br>Indian School Salalah</li>
+                        <li><span>2012-2013</span><br>Indian School Seeb</li>
+                        <li><span>2013-2017</span><br>Modern International School Oman</li>
+                        <li><span>2017- current date</span><br>Indian School Al Wadi Al Kabir</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------services----------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">SOCIAL SERVICE:</h1>  
+        <div class="services-list">
+            <div>
+            
+                <h2>social service 1</h2>
+                <p>bao bao black sheep</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                
+                <h2>social service 2</h2>
+                <p>have u any wool</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY INVENTIONS:</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/IMG_0957.png">
+                <div class="layer">
+                    <h3>Robostick</h3>
+                    <p>It is a robotic stick that is equipped with ultrasonic sensors coded with arduino chip that helps blind 
+                        people.It beeps when and obstacle is sensed in the set range which is 10 cm.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/IMG_1158.png">
+                <div class="layer">
+                    <h3>The SESS</h3>
+                    <p>The Solar Energy Storage System (SESS) is a completely new innovation which I believe has the potential to revolutionise the way we live our lives.
+                        It uses Gravity to store Energy.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!--------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me:</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> triakshasingh@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i> +968 93666014</p>
+                <div class="social-icons">
+                    <a href="https://t.snapchat.com/U357Sbd6"><i class="fa-brands fa-square-snapchat"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=7pdc52jgj0on&utm_content=3zj52j3"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Triaksha Singh.<br>Thank You for visiting my website <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tablinks");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMkunZ7vZf-nbkETYNi8e-LPmh9h1Nq6klTqH5E_xhZjDzMVOhQPXt5bGIXhjtf1vsPA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = " Message Sent Succesfully <i class=fa-solid fa-square-check></i> "
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
